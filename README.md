@@ -29,10 +29,10 @@ A python program to find the linear regression for simple data sets without usin
 # Procedure
 
 1. Install python
-2. Then install the following python pacakages
-    a. matplotlib
-    b. numpy
-    c. csv
+2. Then install the following python pacakages<br/>
+    a. matplotlib<br/>
+    b. numpy<br/>
+    c. csv<br/>
 3. Run the the linear_regerssion_finder.py
 4. Load the csv file by selecting option 1
 5. Then find the linear regression equation by selecting option 2
