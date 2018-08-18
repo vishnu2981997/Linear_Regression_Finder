@@ -1,5 +1,30 @@
 # Linear_Regression_Finder
+
 A python program to find the linear regression for simple data sets without using scikit-learn
+
+# Data set format
+
+    x     y
+    1	  2
+    2	  3
+    3	  4
+    4	  5
+    5	  6
+    6	  7
+    7	  8
+    8	  9
+    9	  10
+   10	  11
+   
+# Formulas
+
+ y = (a * x) + b
+
+ b = r * (sy / sx)
+
+ a = y1 - (b * x1)
+
+ r = sigma( (x - x1) * (y - y1) ) / sqrt( sigma( (x - x1)**0.5) * sigma( (y - y1)**0.5) )
 
 # Procedure
 
