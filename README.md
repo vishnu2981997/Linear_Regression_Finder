@@ -4,7 +4,7 @@ A python program to find the linear regression for simple data sets without usin
 
 # Data set format
 
-    x     y
+    x       y
     1	  2
     2	  3
     3	  4
