@@ -18,7 +18,7 @@ A python program to find the linear regression for simple data sets without usin
    
 # Formulas
 
- y = (a * x) + b
+ y = a + (b * x)
 
  b = r * (sy / sx)
 
