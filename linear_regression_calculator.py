@@ -19,7 +19,7 @@ Linear Regression Finder : Given a csv file of the following format calculates t
 
     Formula :
     
-    y = (a * x) + b
+    y = a + (b * x)
 
     b = r * (sy / sx)
 
@@ -112,7 +112,7 @@ def linear_reg(x, y):
 
     # Finding and displaying y
 
-    val = "( "+str(a)+" * x ) + "+str(b)
+    val = str(a)+" + ( "+str(b)+" * x )"
 
     return val, a, b
 
@@ -132,7 +132,7 @@ def scatter_plot(x, y, a, b):
     
     start = [min(x), max(x)]
 
-    end = [(a * min(x)) + b, (a * max(x)) + b]
+    end = [(b * min(x)) + a, (b * max(x)) + a]
 
     # Plotting the regression line
 
@@ -154,7 +154,7 @@ def predict(a, b):
 
     test_x = float(input("Enter the value of x for which y is to be predicted : "))
 
-    test_y = (a * test_x) + b
+    test_y = a + (b * test_x)
 
     print("\nFor x = "+str(test_x)+" y = "+str(test_y)+"\n")
 
